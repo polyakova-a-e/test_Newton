@@ -1,0 +1,715 @@
+{
+  "id": "5de3b1a2-aa53-49ce-bde7-e2f094f42833",
+  "version": "2.0",
+  "name": "newton",
+  "url": "http://t555.igetsmart.gitlab.tdsgn.ru/",
+  "tests": [{
+    "id": "a9f813bb-91ee-4853-8471-fa9b0de35389",
+    "name": "001_login",
+    "commands": [{
+      "id": "00d9b747-e602-49f1-b7fe-238baabf68b3",
+      "comment": "",
+      "command": "open",
+      "target": "http://t555.igetsmart.gitlab.tdsgn.ru/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ec137202-f78d-4448-bc60-e9be7fa25628",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1254x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bef8d07e-2b2a-48bf-9a8f-5d38285fb47a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.t-btn_border > span",
+      "targets": [
+        ["css=.t-btn_border > span", "css:finder"],
+        ["xpath=//main[@id='app']/header/div/div/button[2]/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Вход')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "82d83fe2-9038-4e5e-a918-dc9392d1b732",
+      "comment": "",
+      "command": "click",
+      "target": "css=.t-input:nth-child(3) > input",
+      "targets": [
+        ["css=.t-input:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@type='email']", "xpath:attributes"],
+        ["xpath=//div[@id='vbar']/div/div[3]/div/div[2]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "45ade3cb-090d-4857-8e11-d8634ac753e0",
+      "comment": "",
+      "command": "type",
+      "target": "css=.t-input:nth-child(3) > input",
+      "targets": [
+        ["css=.t-input:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@type='email']", "xpath:attributes"],
+        ["xpath=//div[@id='vbar']/div/div[3]/div/div[2]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "test@test.ru"
+    }, {
+      "id": "899e1217-e7b6-4ca0-8d42-671e9d803688",
+      "comment": "",
+      "command": "click",
+      "target": "css=.t-input:nth-child(4) > input",
+      "targets": [
+        ["css=.t-input:nth-child(4) > input", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//div[@id='vbar']/div/div[3]/div/div[2]/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "14e99454-0d8c-4282-9b57-28c1372b1e2c",
+      "comment": "",
+      "command": "type",
+      "target": "css=.t-input:nth-child(4) > input",
+      "targets": [
+        ["css=.t-input:nth-child(4) > input", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//div[@id='vbar']/div/div[3]/div/div[2]/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "qwer1234"
+    }, {
+      "id": "6789a48d-5a87-44a8-8c82-b166a1278de1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.t-btn:nth-child(6) > span",
+      "targets": [
+        ["css=.t-btn:nth-child(6) > span", "css:finder"],
+        ["xpath=//div[@id='vbar']/div/div[3]/div/div[2]/form/button/span", "xpath:idRelative"],
+        ["xpath=//form/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Войти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "acbf26d7-452e-4113-a2ff-64a40b26a722",
+      "comment": "",
+      "command": "click",
+      "target": "css=.t-header__link:nth-child(4) path",
+      "targets": [
+        ["css=.t-header__link:nth-child(4) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "35a04ec1-98be-404b-b887-5a17ea0b1820",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(8)",
+      "targets": [
+        ["css=button:nth-child(8)", "css:finder"],
+        ["xpath=//main[@id='app']/header/nav/button", "xpath:idRelative"],
+        ["xpath=//nav/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Выход')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3b4f8464-caac-4dee-8a90-898685ad84d0",
+    "name": "002_add_file_positive",
+    "commands": [{
+      "id": "166f6fe5-6d3e-4c15-a84d-bcb81d1369d7",
+      "comment": "",
+      "command": "open",
+      "target": "http://t555.igetsmart.gitlab.tdsgn.ru/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e4730bba-8f29-42eb-a76e-3e2d56b58267",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1254x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2c54f342-b38f-417c-a506-5ba499a7c87e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.t-header__link:nth-child(4) > svg",
+      "targets": [
+        ["css=.t-header__link:nth-child(4) > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "57ea534b-70e3-45c3-9f05-ccd13ed7aa23",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Мои данные",
+      "targets": [
+        ["linkText=Мои данные", "linkText"],
+        ["css=.t-headerMenu > a:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Мои данные')]", "xpath:link"],
+        ["xpath=//main[@id='app']/header/nav/a[5]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/profile/my_info')]", "xpath:href"],
+        ["xpath=//a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'Мои данные')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b353fb5-83ca-439d-90ce-87dcbe0c8f53",
+      "comment": "",
+      "command": "click",
+      "target": "css=h4",
+      "targets": [
+        ["css=h4", "css:finder"],
+        ["xpath=//main[@id='app']/div/div[2]/div/div[2]/div[2]/div/div/div/div/div/h4", "xpath:idRelative"],
+        ["xpath=//h4", "xpath:position"],
+        ["xpath=//h4[contains(.,'Загрузить документ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "499fa70e-56bb-4f2c-9ca6-e296bb49affd",
+      "comment": "",
+      "command": "click",
+      "target": "css=span:nth-child(2) path",
+      "targets": [
+        ["css=span:nth-child(2) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "20b4a356-568b-42c5-a931-c91b8e99083e",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=(//input[@type='file'])[2]",
+      "targets": [
+        ["css=.t-btn_white > input", "css:finder"],
+        ["xpath=(//input[@type='file'])[2]", "xpath:attributes"],
+        ["xpath=//main[@id='app']/div/div[2]/div/div[2]/div[2]/div/div/div/div/div/form/label/input", "xpath:idRelative"],
+        ["xpath=//form/label/input", "xpath:position"]
+      ],
+      "value": "C:\\fakepath\\certif2.png"
+    }]
+  }, {
+    "id": "5376c446-a7c3-4e0d-a8e6-b88037a875ac",
+    "name": "005_add_f_negative_1300px",
+    "commands": [{
+      "id": "8a1bec60-c6ce-441e-b7e6-f472561700dc",
+      "comment": "",
+      "command": "open",
+      "target": "http://t555.igetsmart.gitlab.tdsgn.ru/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8a12193e-973e-4cf0-97d5-4d8da2c288eb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1254x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4e9d6b9d-3157-4a01-ac97-75710ff3d478",
+      "comment": "",
+      "command": "click",
+      "target": "css=.t-header__link:nth-child(4) > svg",
+      "targets": [
+        ["css=.t-header__link:nth-child(4) > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e397ac76-2696-4a8f-b732-8510999825de",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Мои данные",
+      "targets": [
+        ["linkText=Мои данные", "linkText"],
+        ["css=.t-headerMenu > a:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Мои данные')]", "xpath:link"],
+        ["xpath=//main[@id='app']/header/nav/a[5]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/profile/my_info')]", "xpath:href"],
+        ["xpath=//a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'Мои данные')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0544f33e-cd85-4dd1-be94-3352d9730389",
+      "comment": "",
+      "command": "click",
+      "target": "css=span:nth-child(2) path",
+      "targets": [
+        ["css=span:nth-child(2) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "964407cb-0be3-4941-a322-6561ae1ee7b5",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=(//input[@type='file'])[2]",
+      "targets": [
+        ["css=.t-btn_white > input", "css:finder"],
+        ["xpath=(//input[@type='file'])[2]", "xpath:attributes"],
+        ["xpath=//main[@id='app']/div/div[2]/div/div[2]/div[2]/div/div/div/div/div/form/label/input", "xpath:idRelative"],
+        ["xpath=//form/label/input", "xpath:position"]
+      ],
+      "value": "C:\\fakepath\\certif_1280х1300.jpg"
+    }, {
+      "id": "eeb65236-b1f6-4c83-a883-b618387f9d25",
+      "comment": "",
+      "command": "click",
+      "target": "css=.t-document-list__uploader__area",
+      "targets": [
+        ["css=.t-document-list__uploader__area", "css:finder"],
+        ["xpath=//main[@id='app']/div/div[2]/div/div[2]/div[2]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb4fc9b9-93b6-414d-94fc-bbfcc9ce328d",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h4",
+      "targets": [
+        ["css=h4", "css:finder"],
+        ["xpath=//main[@id='app']/div/div[2]/div/div[2]/div[2]/div/div/div/div/div/h4", "xpath:idRelative"],
+        ["xpath=//h4", "xpath:position"],
+        ["xpath=//h4[contains(.,'Попробуйте еще раз')]", "xpath:innerText"]
+      ],
+      "value": "Попробуйте еще раз"
+    }, {
+      "id": "6bdd1914-e46d-46b2-a472-73b468c55430",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(3)",
+      "targets": [
+        ["css=p:nth-child(3)", "css:finder"],
+        ["xpath=//main[@id='app']/div/div[2]/div/div[2]/div[2]/div/div/div/div/div/p", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Файл «certif_1280х1300.jpg» слишком большой. Высота не должна превышать 1 280 пикселей.')]", "xpath:innerText"]
+      ],
+      "value": "Файл «certif_1280х1300.jpg» слишком большой. Высота не должна превышать 1 280 пикселей."
+    }]
+  }, {
+    "id": "bf291c4f-c9bb-4160-a18a-3aa6369e0f04",
+    "name": "003_add_f_negative_psd",
+    "commands": [{
+      "id": "c602100e-8b76-4c91-90e8-b9b14c2a6ff1",
+      "comment": "",
+      "command": "open",
+      "target": "http://t555.igetsmart.gitlab.tdsgn.ru/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6144643a-0b19-4b68-94e8-d74adae2c4dc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1254x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "10cc6e66-4d9c-4e01-b1dd-79f7ac2c21bc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.t-header__link:nth-child(4) path",
+      "targets": [
+        ["css=.t-header__link:nth-child(4) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "ceaf2bb5-499f-4183-944e-7fa61d283e22",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Мои данные",
+      "targets": [
+        ["linkText=Мои данные", "linkText"],
+        ["css=.t-headerMenu > a:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Мои данные')]", "xpath:link"],
+        ["xpath=//main[@id='app']/header/nav/a[5]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/profile/my_info')]", "xpath:href"],
+        ["xpath=//a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'Мои данные')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f012cde-8ca8-46b9-9a2d-4221a75d0fc1",
+      "comment": "",
+      "command": "click",
+      "target": "css=span:nth-child(2) > svg",
+      "targets": [
+        ["css=span:nth-child(2) > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "52e881ff-b77f-4fa3-b1d8-53905fca7cf5",
+      "comment": "",
+      "command": "type",
+      "target": "css=.t-btn_white > input",
+      "targets": [
+        ["css=.t-btn_white > input", "css:finder"],
+        ["xpath=(//input[@type='file'])[2]", "xpath:attributes"],
+        ["xpath=//main[@id='app']/div/div[2]/div/div[2]/div[2]/div/div/div/div/div/form/label/input", "xpath:idRelative"],
+        ["xpath=//form/label/input", "xpath:position"]
+      ],
+      "value": "C:\\fakepath\\certif2.psd"
+    }, {
+      "id": "b6426694-17cd-447c-ad62-9bc2ea03583b",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(3)",
+      "targets": [
+        ["css=p:nth-child(3)", "css:finder"],
+        ["xpath=//main[@id='app']/div/div[2]/div/div[2]/div[2]/div/div/div/div/div/p", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Разрешена загрузка файлов только со следующими расширениями: png, jpg, jpeg.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "314457a3-8aa1-4a4b-ab74-cd35da85c4eb",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(3)",
+      "targets": [
+        ["css=p:nth-child(3)", "css:finder"],
+        ["xpath=//main[@id='app']/div/div[2]/div/div[2]/div[2]/div/div/div/div/div/p", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Разрешена загрузка файлов только со следующими расширениями: png, jpg, jpeg.')]", "xpath:innerText"]
+      ],
+      "value": "Разрешена загрузка файлов только со следующими расширениями: png, jpg, jpeg."
+    }, {
+      "id": "be0d9ff0-1b8b-4a37-b0c9-f15c69415390",
+      "comment": "",
+      "command": "click",
+      "target": "css=.t-document-list__uploader__area",
+      "targets": [
+        ["css=.t-document-list__uploader__area", "css:finder"],
+        ["xpath=//main[@id='app']/div/div[2]/div/div[2]/div[2]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7efaf159-7bd5-408a-a362-f3db559bd6fa",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h4",
+      "targets": [
+        ["css=h4", "css:finder"],
+        ["xpath=//main[@id='app']/div/div[2]/div/div[2]/div[2]/div/div/div/div/div/h4", "xpath:idRelative"],
+        ["xpath=//h4", "xpath:position"],
+        ["xpath=//h4[contains(.,'Попробуйте еще раз')]", "xpath:innerText"]
+      ],
+      "value": "Попробуйте еще раз"
+    }]
+  }, {
+    "id": "e9d4305c-55a0-4782-bb18-2c6ef24bfae4",
+    "name": "004_add_file_negative_8Mb",
+    "commands": [{
+      "id": "08c13985-d387-49ee-b9f8-98abb84fd108",
+      "comment": "",
+      "command": "open",
+      "target": "http://t555.igetsmart.gitlab.tdsgn.ru/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c9b92dcc-e967-4402-bb69-d1408526c942",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1254x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "546624b5-bd0f-47fc-b49d-e87b3767a819",
+      "comment": "",
+      "command": "click",
+      "target": "css=.t-header__link:nth-child(4) > svg",
+      "targets": [
+        ["css=.t-header__link:nth-child(4) > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "f286034e-6cb5-4ba4-a189-fb5c64bdc869",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.t-header__link:nth-child(4) > svg",
+      "targets": [
+        ["css=.t-header__link:nth-child(4) > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "b409ba02-1f5f-4819-a168-3c015fc0d178",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.t-header__link:nth-child(4) > svg",
+      "targets": [
+        ["css=.t-header__link:nth-child(4) > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "af31aa0b-9900-4f11-9eaa-7befa7c36cdc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Мои данные",
+      "targets": [
+        ["linkText=Мои данные", "linkText"],
+        ["css=.t-headerMenu > a:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Мои данные')]", "xpath:link"],
+        ["xpath=//main[@id='app']/header/nav/a[5]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/profile/my_info')]", "xpath:href"],
+        ["xpath=//a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'Мои данные')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "076f3b98-45d0-4f53-8667-a19f3df1cfeb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Мои данные",
+      "targets": [
+        ["linkText=Мои данные", "linkText"],
+        ["css=.t-headerMenu > a:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Мои данные')]", "xpath:link"],
+        ["xpath=//main[@id='app']/header/nav/a[5]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/profile/my_info')]", "xpath:href"],
+        ["xpath=//a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'Мои данные')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0eff81a6-2bc9-4dcf-bf32-346602ae5582",
+      "comment": "",
+      "command": "click",
+      "target": "css=.t-documents-load",
+      "targets": [
+        ["css=.t-documents-load", "css:finder"],
+        ["xpath=//main[@id='app']/div/div[2]/div/div[2]/div[2]/div/div/div/div/div/form", "xpath:idRelative"],
+        ["xpath=//div/div/div/form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1ab6381-3827-49dc-8e0b-16fb9926834f",
+      "comment": "",
+      "command": "click",
+      "target": "css=span:nth-child(2) path",
+      "targets": [
+        ["css=span:nth-child(2) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "8680c800-9b58-4183-ba90-86c8f58fcf9f",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=(//input[@type='file'])[2]",
+      "targets": [
+        ["css=.t-btn_white > input", "css:finder"],
+        ["xpath=(//input[@type='file'])[2]", "xpath:attributes"],
+        ["xpath=//main[@id='app']/div/div[2]/div/div[2]/div[2]/div/div/div/div/div/form/label/input", "xpath:idRelative"],
+        ["xpath=//form/label/input", "xpath:position"]
+      ],
+      "value": "C:\\fakepath\\IMG_6950.JPG"
+    }, {
+      "id": "33540362-cbea-4f8b-974a-fa483edda98b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.t-document-list",
+      "targets": [
+        ["css=.t-document-list", "css:finder"],
+        ["xpath=//main[@id='app']/div/div[2]/div/div[2]/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d35c22c-622b-41d0-9556-7fbb74995bdf",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(3)",
+      "targets": [
+        ["css=p:nth-child(3)", "css:finder"],
+        ["xpath=//main[@id='app']/div/div[2]/div/div[2]/div[2]/div/div/div/div/div/p", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div/div/div/p", "xpath:position"]
+      ],
+      "value": "{ \"url\": \"http://api.t555.igetsmart.gitlab.tdsgn.ru/upload_doc\", \"ok\": false, \"status\": 0, \"statusText\": \"\", \"headers\": { \"map\": { \"\": [ \"\" ] } }, \"body\": \"\", \"bodyText\": \"\" }"
+    }, {
+      "id": "fa705c3b-442a-4db9-85c3-b89e1696a76d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.t-document-list",
+      "targets": [
+        ["css=.t-document-list", "css:finder"],
+        ["xpath=//main[@id='app']/div/div[2]/div/div[2]/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f74107a1-c9a5-4d58-98a2-94cac9300581",
+    "name": "006_check_files",
+    "commands": [{
+      "id": "5219309d-d849-4574-8964-d4c8fd15d8a3",
+      "comment": "",
+      "command": "open",
+      "target": "http://t555.igetsmart.gitlab.tdsgn.ru/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2ea5ac18-ad05-4dbc-8284-0248cae907d2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1254x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "024bff48-4c9f-4e39-b035-b00b21e9bd26",
+      "comment": "",
+      "command": "click",
+      "target": "css=.t-header__link:nth-child(4) path",
+      "targets": [
+        ["css=.t-header__link:nth-child(4) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "3014c86b-6e23-4f9f-9297-b2db5f383524",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Личный кабинет",
+      "targets": [
+        ["linkText=Личный кабинет", "linkText"],
+        ["css=.t-headerMenu > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Личный кабинет')]", "xpath:link"],
+        ["xpath=//main[@id='app']/header/nav/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/profile/')]", "xpath:href"],
+        ["xpath=//nav/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Личный кабинет')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "68f58f01-3e2a-4806-8e85-eb7771bccaf5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Настройки",
+      "targets": [
+        ["linkText=Настройки", "linkText"],
+        ["css=.t-load-progress:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Настройки')]", "xpath:link"],
+        ["xpath=//main[@id='app']/div/div/a[5]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/profile/settings')]", "xpath:href"],
+        ["xpath=//a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'Настройки')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ad93359-3fcf-4fe5-baf9-b97cc7176f63",
+      "comment": "",
+      "command": "open",
+      "target": "http://t555.igetsmart.gitlab.tdsgn.ru/users/id102662",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0086a38a-e729-495d-be69-61105f7ac8c6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.t-work-area__cell",
+      "targets": [
+        ["css=.t-work-area__cell", "css:finder"],
+        ["xpath=//main[@id='app']/div/div[2]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e81db5d5-a384-4863-b586-a5edbcbc0911",
+      "comment": "",
+      "command": "click",
+      "target": "css=.t-document__img > img",
+      "targets": [
+        ["css=.t-document__img > img", "css:finder"],
+        ["xpath=//main[@id='app']/div/div/div[2]/div/div[2]/div/div/div/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a4a88bd-0cd7-4516-b2a8-36642677e90d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_absolute > svg",
+      "targets": [
+        ["css=.\\_absolute > svg", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "cf496a3d-3a01-4006-aa2a-187b3b9d71e4",
+    "name": "007_delete files",
+    "commands": [{
+      "id": "cdb9fca2-0e97-4d4c-908f-927a0af0a800",
+      "comment": "",
+      "command": "open",
+      "target": "http://t555.igetsmart.gitlab.tdsgn.ru/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3e7b800b-43f4-4e54-a7f6-efa661ad175c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1238x768",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fd03646a-32b7-4ae9-a057-7171c65b2310",
+      "comment": "",
+      "command": "click",
+      "target": "css=.t-header__link:nth-child(4) > svg",
+      "targets": [
+        ["css=.t-header__link:nth-child(4) > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "ecc2daf8-4705-4902-9946-47784ba5dfc1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.t-header__link:nth-child(4) > svg",
+      "targets": [
+        ["css=.t-header__link:nth-child(4) > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a1e0332-aed7-450f-abe8-acd1e622d319",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.t-header__link:nth-child(4) > svg",
+      "targets": [
+        ["css=.t-header__link:nth-child(4) > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e285c413-c18f-4f82-8e4a-88a33890fc16",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Мои данные",
+      "targets": [
+        ["linkText=Мои данные", "linkText"],
+        ["css=.t-headerMenu > a:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Мои данные')]", "xpath:link"],
+        ["xpath=//main[@id='app']/header/nav/a[5]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/profile/my_info')]", "xpath:href"],
+        ["xpath=//a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'Мои данные')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c416b398-422d-4c3e-8f26-722235350c3b",
+      "comment": "",
+      "command": "click",
+      "target": "css=svg:nth-child(2) > path",
+      "targets": [
+        ["css=svg:nth-child(2) > path", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "33565ebf-007b-41d9-b021-41acac0221f0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://t555.igetsmart.gitlab.tdsgn.ru/"],
+  "plugins": []
+}
